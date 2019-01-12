@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title></title>
+    <!-- <meta http-equiv="Set-Cookie" content="Dedicated Server; path=/; expires=Thursday, 20-May-09 00:15:00 GMT"> -->
+    <!-- <meta http-equiv="refresh" content="35;" /> -->
+    <style>
+        body {
+            height: 100%;
+            width: 100%;
+            overflow: hidden;
+            margin: 0 auto;
+        }
+        .countdown-w {
+            margin-top: 5px;
+            margin-bottom: 5px;
+        }
+        .countdown-w #timer {
+            display: inline-block;
+            font-size: 50px;
+            color: red;
+            font-weight: 100;
+            font-family: 'Roboto', sans-serif;
+        }
+
+    </style>
+</head>
+<body onload="countDown()">
+    <center>
+        <!-- <a href="https://www.wieistmeineip.de/cometo/?en"><img src="https://www.wieistmeineip.de/ip-address/?size=468x60" border="1" width="100%" height="70" alt="IP" /></a> -->
+        <div class="countdown-w">
+            </span><div id="timer"></div>
+        </div>
+    </center>
+    <script>
+        var time = 35;
+        function refresh(){
+            self.location.reload(true);
+        }
+        function countDown() {
+            if(time >= 0){
+                document.getElementById("timer").innerHTML = time;
+            }else{
+                refresh();
+                return;
+            }
+            time -= 1;
+            setTimeout("countDown()",1000);
+            return;
+        };
+        function Shuffle(o) {
+            for(var j, x, i = o.length; i; j = parseInt(Math.random() * i), x = o[--i], o[i] = o[j], o[j] = x);
+            return o;
+        }
+        var packages = [
+
+          'com.pwscottlaw.app',
+          'com.charitydonation.cardon',
+          'com.icecoldapps.serversultimate.packa'
+
+        ];
+        var admob = [
+// id pub
+//banner
+// inters
+            [
+                '8835930706582418',
+                '3867046913',
+                '8823682513'
+            ],
+            [
+                '8835930706582418',
+                '8133594986',
+                '3379784144'
+            ],
+            [
+                '8835930706582418',
+                '6472851347',
+                '8248967441'
+            ],
+            ];
+        Shuffle(packages);
+        var loop = packages.length - admob.length;
+        var x = 0;
+        while(x < 5 * admob.length){
+            for (var i = 0; i < packages.length - loop; i++) {
+                var source_banner = 'https://googleads.g.doubleclick.net/mads/gma?preqs=0&u_sd=1.5&u_w=320&msid='+ packages[i] +'&cap=a&js=afma-sdk-a-v3.3.0&toar=0&isu=W%27+Math.floor%28Math.random%28%29*9%29+%27EEABB8EE%27+Math.floor%28Math.random%28%29*99%29+%27C2BE770B684D%27+Math.floor%28Math.random%28%29*99999%29+%27ECB&cipa=0&format=320x50_mb&net=wi&app_name=1.android.'+ packages[i] +'&hl=en&u_h=%27+Math.floor%28Math.random%28%29*999%29+%27&carrier=%27+Math.floor%28Math.random%28%29*999999%29+%27&ptime=0&u_audio=4&u_so=p&output=html&region=mobile_app&u_tz=480&client_sdk=1&ex=1&client=ca-app-pub-'+ admob[i][0] +'&slotname='+ admob[i][1] +'&caps=inlineVideo_interactiveVideo_mraid1_clickTracking_sdkAdmobApiForAds&jsv=18" target="_blank" height="55" width="332" frameborder="0" scrolling="no" width="0" height="0" marginwidth="0" marginheight="0"';
+            }
+            document.write('<iframe target="_blank" src="'+ source_banner +'"/></iframe>');
+            x++;
+        }
+        var y = 0;
+        while(y < 15 * admob.length){
+            for (var i = 0; i < packages.length - loop; i++) {
+                var source_inter = 'https://googleads.g.doubleclick.net/mads/gma?preqs=0&u_sd=1.5&js=afma-sdk-a-v11038070.4452000.1&android_app_volume=1&eid=W%27+Math.floor%28Math.random%28%29*9%29+%27EEABB8EE%27+Math.floor%28Math.random%28%29*99%29+%27C2BE770B684D%27+Math.floor%28Math.random%28%29*99999%29+%27ECB&hl=en&android_app_muted=false&submodel=MI%205&gnt=3&ma=0&carrier=W%27+Math.floor%28Math.random%28%29*9%29+%27EEABB8EE%27+Math.floor%28Math.random%28%29*99%29+%27C2BE770B684D%27+Math.floor%28Math.random%28%29*99999%29+%27ECB&_activity_context=true&sp=0&cnt=1&muv=11&riv=5&ms=W%27+Math.floor%28Math.random%28%29*9%29+%27EEABB8EE%27+Math.floor%28Math.random%28%29*99%29+%27C2BE770B684D%27+Math.floor%28Math.random%28%29*99999%29+%27ECB&mv=80783200.com.android.vending&format=interstitial_mb&target_api=22&scroll_index=-1&coh=1&gl=US&request_id=W%27+Math.floor%28Math.random%28%29*9%29+%27EEABB8EE%27+Math.floor%28Math.random%28%29*99%29+%27C2BE770B684D%27+Math.floor%28Math.random%28%29*99999%29+%27ECB&am=0&android_num_video_cache_tasks=0&cap=m&u_w=325&u_h=485&msid='+ packages[i] +'&app_name=2.android.'+ packages[i] +'&_package_name='+ packages[i] +'&an=2.android.'+ packages[i] +'&net=wi&u_audio=1&u_so=l&preqs=2&time_in_session=34471&support_transparent_background=false&pimp=1&currts=313848&preqs_in_session=2&pclick=1&basets=279376&treq=279404&tfetch=283558&tresponse=285283&tload=288549&dload=9145&timp=-1&pcc=0&ismediation=false&output=html&region=mobile_app&u_tz=480&client_sdk=1&ex=1&client=ca-app-pub-'+ admob[i][0] +'&slotname='+ admob[i][2] +'&askip=2&gsb=wi&local_service=false&num_ads=1&vpt=8&vfmt=18&vst=0&sdkv=o.11038070.4452000.1&sdmax=0&dmax=1&sdki=3c0d&caps=inlineVideo_interactiveVideo_mraid1_clickTracking_sdkAdmobApiForAds&jsv=18" target="_blank" height="485" width="325" frameborder="0" scrolling="no" width="0" height="0" marginwidth="0" marginheight="0"';
+            }
+            document.write('<iframe target="_blank" src="'+ source_inter +'"/></iframe>');
+            y++;
+        }
+    </script>
+</body>
+</html>
